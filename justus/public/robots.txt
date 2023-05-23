@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ju5tu5.netlify.app/sitemap.xml
