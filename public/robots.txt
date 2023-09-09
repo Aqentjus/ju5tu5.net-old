@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://client0.r3ne.net/sitemap.xml
+Sitemap: https://ju5tu5.net/sitemap.xml
