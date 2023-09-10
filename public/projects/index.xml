@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ju5tu5.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ju5tu5.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movies watched</title>
+      <link>https://ju5tu5.net/projects/project-06/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ju5tu5.net/projects/project-06/</guid>
+      <description>As a guy who loves to watch different movies and tv shows I created this static website do display the movies that i have watched over the years.
+The website shows basic stats like the movie name, release date and a poster image. I also added to show the rating of what i though about that specific movie. This data is received using the TMDB (the movie database) apikey.
+My watched movies</description>
+    </item>
+    
     <item>
       <title>Christmas preparations</title>
       <link>https://ju5tu5.net/projects/project-05/</link>
@@ -46,8 +57,8 @@ To the website</description>
       
       <guid>https://ju5tu5.net/projects/project-01/</guid>
       <description>New website!
-link to the old one: Dragon wizard
-These videos where helpful Video1 Video2</description>
+link to the old website: Dragon wizard
+print(&amp;#34;hello world&amp;#34;) These videos where helpful Video1 Video2</description>
     </item>
     
   </channel>
