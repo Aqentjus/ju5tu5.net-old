@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ju5tu5.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ju5tu5.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Host multible websites on linux</title>
+      <link>https://ju5tu5.net/projects/project-08/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ju5tu5.net/projects/project-08/</guid>
+      <description>To better follow this you should first read this
+Ok&amp;hellip; First make sure youre in the correct place: cd /var/www/html in this example I&amp;rsquo;m going to host just two sites but you can host as many as you want&amp;hellip; In this example i want to have one site in domain ju5tu5.net and another at test.ju5tu5.net
+So to host two sites make a folder for each different site you want to make like in the picture: then place your website files in each of these folder</description>
+    </item>
+    
     <item>
       <title>Host a website on linux</title>
       <link>https://ju5tu5.net/projects/project-07/</link>
