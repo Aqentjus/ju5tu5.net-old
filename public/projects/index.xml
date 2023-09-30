@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ju5tu5.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ju5tu5.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple dictionary bruteforce attack</title>
+      <link>https://ju5tu5.net/projects/project-09/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ju5tu5.net/projects/project-09/</guid>
+      <description>Ok so this is how I made a dictionary based brute force attack
+First i needed to find the targets ip-address. In this example its a simple server on my lan next I opened kali linux on virtual box and scanned what ports are open on the server by typing in this command nmap 192.168.1.116 after that I can see that ports 22 and 80 are open. Commonly 22 is used for remote access and 80 is used for http traffic after knowing this I can try bruteforcing ssh access In this case because I dont want to wait forever I have created a simpler list of passwords that might be the correct one.</description>
+    </item>
+    
     <item>
       <title>Host multible websites on linux</title>
       <link>https://ju5tu5.net/projects/project-08/</link>
