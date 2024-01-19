@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(29, 30, 32);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px; /* Add margin to create space between navbar and posts */
+}
+
+.post {
+    background-color: rgb(46, 46, 51);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 96%; /* Make the post boxes slightly wider horizontally */
+    max-width: 1200px; /* Set the maximum width for better readability */
+    box-sizing: border-box;
+    color: rgb(155, 156, 157);
+}
+
+.post h2 {
+    color: rgb(218, 218, 219);
+}
+
+.post a {
+    color: rgb(218, 218, 219);
+}
+
+.post img {
+    max-width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(46, 46, 51);
+    padding: 20px; /* Increase padding for the navbar */
+    border-radius: 8px;
+    width: 96%; /* Make the navbar slightly wider horizontally */
+    max-width: 1200px; /* Set the maximum width for better readability */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .left-links,
+.navbar .right-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right-links {
+    margin-left: auto;
+}
+
+.navbar a {
+    color: rgb(218, 218, 219);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .name {
+    color: rgb(218, 218, 219);
+    font-weight: bold;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-right: 10px;
+}
+
+
+.name {
+    color: rgb(218, 218, 219); /* Set the color of the name text to white */
+    font-size: 49px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add margin between name and animated text */
+}
+
+
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.animated-text {
+    color: #fff; /* Set the color of the animated text */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add margin between name and animated text */
+    white-space: nowrap; /* Prevent line breaks in animated text */
+}
+
+
+/*about section stylesheet*/
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px; /* Increased margin-top to add more space */
+}
+
+.about-container .post {
+    background-color: rgb(46, 46, 51);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 96%;
+    max-width: 800px;
+    box-sizing: border-box;
+    color: rgb(155, 156, 157);
+}
+
+.about-container .post h2 {
+    color: rgb(218, 218, 219);
+}
+
+.about-container .post p {
+    margin-bottom: 15px;
+}
+
+
+
+img {
+    width: 50%; /* Adjust the value as needed */
+    max-width: 50%; /* Ensure images don't exceed their natural size */
+    height: auto; /* Maintain the aspect ratio */
+}
